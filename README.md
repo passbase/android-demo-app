@@ -12,4 +12,10 @@ Ensure that you are using the latest Android Studio with Kotlin support.
 
 ## Install the App & Run
 
+1. Open the project in Android Studio
+2. Sync the  `build.gradle file` with the project in order to install all dependencies
+3. Go to line line 23 in `MainActivity.kt` and exchange `YOUR_PUBLISHABLE_API_KEY` with your own API key in line
+3. Select a device and build & run the App
+
+
 
