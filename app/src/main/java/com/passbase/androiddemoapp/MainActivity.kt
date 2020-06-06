@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
 
         // Initialization, prefilled email & additional attributes
         passbaseRef.initialize(
-            "YOUR_PUBLISHABLE_API_KEY",
+            "677pvBbj69UPQd2jgN17NwAZhEdqn1DfzkGpYhW9JPQjaevD9QiXaivU5gODBWK7",
             additionalAttributes = additionalAttributes)     // optional parameter
 
         val verificationButton = findViewById<PassbaseButton>(R.id.passbaseVerificationButton)
@@ -31,10 +31,10 @@ class MainActivity : AppCompatActivity() {
             passbaseRef.startVerification()
 
             // Handling verifications via callbacks
-            passbaseRef.onCancelPassbase {
+            passbaseRef.onCancelPassbaseVerification {
                 println("MainActivity onCancelPassbase")
             }
-            passbaseRef.onCompletePassbase { authKey ->
+            passbaseRef.onCompletePassbaseVerification { authKey ->
                 println("MainActivity onCompletePassbase $authKey")
             }
         }
