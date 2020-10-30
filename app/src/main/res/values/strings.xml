@@ -1,3 +1,6 @@
 <resources>
-    <string name="app_name">Android Demo App</string>
+    <string name="app_name">Passbase Demo</string>
+    <string name="welcome_to_passbase">Welcome to Passbase</string>
+    <string name="start_your_first_verification_by_clicking_on_the_button_below">Start your first verification by clicking on the button below.</string>
+    <string name="enable_dark_theme">Enable dark theme</string>
 </resources>
